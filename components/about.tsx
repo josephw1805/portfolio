@@ -19,12 +19,12 @@ export default function About() {
         🚀 <span className="font-medium">My Journey:</span> I embarked on my web
         development journey three years ago, and it has been an incredible ride
         filled with learning, challenges, and growth. From the fundamentals of
-        HTML and CSS to the dynamic world of JavaScript, I've immersed myself in
+        HTML and CSS to the dynamic world of JavaScript, I&apos;ve immersed myself in
         the ever-evolving landscape of web technologies.
       </p>
       <p className="mb-3">
         💻 <span className="font-medium">Technical Expertise:</span> With a
-        solid foundation in front-end and back-end development, I've honed my
+        solid foundation in front-end and back-end development, I&apos;ve honed my
         skills in creating responsive and user-friendly web applications. My
         toolkit includes proficiency in{" "}
         <span className="italic">HTML, CSS, JavaScript</span>, and familiarity
@@ -36,7 +36,7 @@ export default function About() {
         committed to expanding my knowledge and staying at the forefront of the
         latest industry trends. The dynamic curriculum has equipped me with a
         comprehensive understanding of web development principles, programming
-        languages, and best practices. Beyond the classroom, I've actively
+        languages, and best practices. Beyond the classroom, I&apos;ve actively
         applied my skills to real-world projects. From crafting intuitive user
         interfaces to implementing robust backend functionalities, I take pride
         in creating web applications that not only meet but exceed user
@@ -59,7 +59,7 @@ export default function About() {
         📈 <span className="font-medium">Future Aspirations:</span> As I
         continue my academic journey, I aspire to delve deeper into specialized
         areas of web development, explore emerging technologies, and contribute
-        to innovative projects that push the boundaries of what's possible on
+        to innovative projects that push the boundaries of what&apos;s possible on
         the web.
       </p>
     </motion.section>
