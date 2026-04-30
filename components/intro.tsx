@@ -62,7 +62,7 @@ export default function Intro() {
         <span className="font-bold">passionate and dedicated</span> web
         developer currently pursuing my studies in{" "}
         <span className="italic">
-          Web Development and Internet Applications
+         Artificial Intelegence and Software Development
         </span>{" "}
         at <span className="underline">Algonquin College</span> .
       </motion.h1>

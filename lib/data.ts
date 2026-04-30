@@ -1,9 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import musicAppImg from "@/public/musicAppImg.png";
-import aiAppImg from "@/public/aIAppImg.png";
-import videoAppImg from "@/public/vidoeAppImg.png";
+import project1 from "@/public/project1.png";
+import project2 from "@/public/project2.png";
 
 export const links = [
   {
@@ -34,6 +33,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Artificial Intellegence and Software Development",
+    location: "Algonquin College",
+    description:
+      "I started studying Artificial Intellegence and Software Development at Algonquin College with Co-op. Graduation will be in September 2026.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - 2024",
+  },
+  {
     title: "Web Development and Internet Application",
     location: "Algonquin College",
     description:
@@ -53,54 +60,50 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Music Application",
-    description:
-      "I worked as a full-stack developer on this startup project for 1 month. The styling of the frontend is using Tailwind CSS",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    imageUrl: musicAppImg,
-  },
-  {
-    title: "AI Image Application",
-    description:
-      "This application can generate AI image from user prompt using DALL-E machine learning algorithm from OpenAI api.",
+    title: "Project 1",
+    description: "https://musicplace.vercel.app",
     tags: [
-      "React",
-      "Open AI",
-      "Mongo DB",
-      "Express",
-      "Node.js",
-      "Tailwind CSS",
+      "typescript",
+      "webhook",
+      "postgresql",
+      "tailwindcss",
+      "trpc",
+      "zod",
+      "clerk",
+      "bunjs",
+      "drizzle-orm",
+      "chadcn-ui",
+      "nextjs15",
+      "react19",
     ],
-    imageUrl: aiAppImg,
+    imageUrl: project1,
   },
   {
-    title: "Video Application",
-    description:
-      "This application is a full-stack web application in Next.js, Typescript and Prisma",
-    tags: ["Next.js", "Prisma", "Typescript", "Tailwind CSS"],
-    imageUrl: videoAppImg,
+    title: "Project 2",
+    description: "https://wdia.vercel.app",
+    tags: [
+      "prisma",
+      "tailwindcss",
+      "react19",
+      "arcjet",
+      "betterauth",
+      "chadcn-ui",
+      "nextjs16-typescript",
+    ],
+    imageUrl: project2,
   },
 ] as const;
 
 export const skillsData = [
-  "Outlook",
-  "Microsoft Teams",
-  "SAP BTP",
-  "Collaboration",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "Figma",
-  "Adobe Photoshop",
-  "TypeScript",
+  "Machine Learning",
+  "Reinceforcement Learning",
+  "Machine Vision",
+  "Natural Language Processing",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
+  "NextJS",
+  "TailwindCSS",
+  "Web Security",
   "Prisma",
-  "MongoDB",
-  "Express",
-  "Vercel",
-  "C#",
+  "BetterAuth",
+  "TailwindCSS",
 ] as const;
